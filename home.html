@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+
+        .my-container {
+            /*border: 1px solid green;*/
+        }
+
+        .my-row {
+            /*border: 3px solid red;*/
+        }
+
+        .standard-spacing {
+            margin-bottom: 10px;
+        }
+
+        .extra-spacing {
+            margin-bottom: 20px;
+        }
+
+        .push-right {
+            margin-left: 60px;
+        }
+
+        .push-left{
+            margin-right:60px;
+        }
+        
+        .circle {
+            border-radius: 50%;
+        }
+
+        .circle:hover {
+            opacity: 0.7;
+        }
+
+        .cm-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+
+        .cm-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        .cm-github {
+          background: black;
+          color: white;
+        }
+
+        .btn:hover {
+            color: white;
+        }
+
+        .light {
+            background-color: light;
+        }
+
+        .dark-blue {
+            background-color: #24305E;
+        }
+
+        .blue {
+            background-color: #374785;
+        }
+
+        .light-blue {
+            background-color: #A8D0E6;
+        }
+
+        .red-button {
+            background-color: #F76C6C;
+            border: #F76C6C;
+            color: white;
+        }
+
+        .light-blue-button {
+            background-color: #374785;
+            border: #374785;
+            color: white;
+        }
+
+        .dark-button {
+            background-color: #343a40;
+            border: #343a40;
+            color: white;
+        }
+
+        img {
+          width: auto;
+          height: auto;
+        }
+    </style>
+
+    <title>Aran Smith | Home</title>
+
+  </head>
+  <body>
+    <div class='container-fluid my-container'>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Aran Smith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/contact">Contact<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+    
+<div class='container-fluid my-container'>
+    <div class='row my-row background-color justify-content-center'>
+      <!-- disappear image on small -->
+        <div class='col-md-2 standard-spacing d-none d-md-block'> 
+            <img src="./static/img/me.jpg" class="img-fluid rounded-circle">
+        </div>
+        <div class='col-md-5'>
+          <p>I'm a Software Engineer based in Ireland. I have a BSc in Computer Applications and Software Engineering from Dublin City University and a MSc in Artificial Intelligence from the University of Southampton.</p>
+          <p>The focus of my MSc dissertation was robot adaptation and damage recovery for a simulated R-hex platform. This project made use of novel evolutionary algorithms (MAP-Elites) and optimization techniques (Bayesian optimization with Gaussian Processes). <a href="#">Read more...</a></p>
+          <p>I have experience in industry as a performance tester, and as a software engineer. My industry experience were set in the context of Agile engineering in which projects were broken up into sprints with daily standups and weekly stories.</p>
+        </div>
+    </div>
+    <div class='row my-row justify-content-center'>
+        <div class='col-sm-2 my-col standard-spacing' align="left">
+            <a role="button" href="./static/files/cv.pdf" class="btn btn-primary dark-button">CV</a>
+       </div>
+       <div class='col-sm-3 my-col standard-spacing' align="center">
+            <a class="btn btn-primary dark-button" href="/contact" role="button">Say hi</a>
+       </div>
+       <div class='col-sm-3 my-col' align="right">
+        <a role="button" href="https://www.linkedin.com/in/aran-smith-868746b6" class="btn circle cm-linkedin standard-spacing"><i class="fa fa-linkedin"></i></a>
+        <a role="button" href="https://twitter.com/AranSmith141" class="btn circle cm-twitter standard-spacing"><i class="fa fa-twitter"></i></a>
+        <a role="button" href="https://github.com/AranBSmith" class="btn circle cm-github standard-spacing"><i class="fa fa-github"></i></a>
+       </div>
+    </div>
+</div>
+
+</body>
+</html>
